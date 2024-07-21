@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Gymie</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/weight-lifting-1284616_1280.jpg');
+    }
+    .left{
+        border: 2px solid green;
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 18px;
+    }
+    .left img{
+        width: 23px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center ;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        top: 18px;
+        margin: 12px auto;
+        border: 2px solid yellow;
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        display: inline-block;
+        border: 2px solid blueviolet;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+        
+    }
+    .navbar li a{
+        color: rgb(236, 130, 0);
+        text-decoration: none;
+        padding:10px 14px ;
+    }
+    .navbar li a:hover , .navbar li a.active{
+        text-decoration: underline;
+        color: beige;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/image 1.jpg" alt="">
+            <div>Gym boois</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Help Desk</a></li>
+                <li><a href="#">Contact</a></li>
+               </ul>
+
+        </div>
+        <div class="right">
+            i m right
+
+        </div>
+    </header>
+</body>
+</html>
